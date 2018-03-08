@@ -36,29 +36,9 @@ BOX = {
 API_STORE = []
 
 API_STORE.append({
-  "ACCT_NAME": "g3td0wn",
-  "API_NAME" : "AIDf798675efa87a7c2759dbf84dc3ba06a",
-  "API_TOKEN": "0f0ba634b0f21f1de853fdb5124f5464"})
-
-API_STORE.append({
-  "ACCT_NAME": "goomba9999",
-  "API_NAME" : "AID22f090044d761cd0d893803260f5c662",
-  "API_TOKEN": "e1c16b46a617da81abde11e17e79e397"})
-
-API_STORE.append({
-  "ACCT_NAME": "goomba1000",
-  "API_NAME" : "AIDf0fe4d405d0961039c846a44d7b01cf1",
-  "API_TOKEN": "3b14c4abed67866778b65a9a3e25b265"})
-
-API_STORE.append({
-  "ACCT_NAME": "goomba1001",
-  "API_NAME" : "AID1d1b6e1fed5ba4ce93a5f0bf48f56f10",
-  "API_TOKEN": "b4cfcd378cd1659bad702a02be0187ca"})
-
-API_STORE.append({
-  "ACCT_NAME": "goomba1002",
-  "API_NAME" : "AIDdb4394425065702036e67f8eb66e76ac",
-  "API_TOKEN": "c8342e23d7c61aa2b437c5c9e53af540"})
+  "ACCT_NAME": "Put account username here in quotes",
+  "API_NAME" : "HASHhashHASHhashHASHhash",
+  "API_TOKEN": "HASHhashHASHhashHASHhash"})
 
 
 
@@ -80,7 +60,7 @@ def printApiStore():
   return
 
 def chooseApiCreds():
-  choice = raw_input("[>] Select the account to use (0 thru " + str(len(API_STORE)-1)"
+  choice = raw_input("[>] Select the account to use (0 thru " + str(len(API_STORE)-1) + ") ")
 
 def getEssidSearch(ssid):
   query_url = BASE_URL + "/api/v2/network/search"
